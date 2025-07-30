@@ -7,6 +7,7 @@ const LiquidityIndicators = ({ data }) => {
     if (liquidity < 5000) return 'url(#dots)';
     return 'url(#gradient)';
   };
+  
 
   return (
     <Box sx={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 }}>

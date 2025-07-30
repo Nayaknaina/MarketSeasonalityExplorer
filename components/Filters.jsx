@@ -23,4 +23,5 @@ const Filters = ({ timeframe, setTimeframe, cryptoPair, setCryptoPair }) => {
   );
 };
 
+
 export default Filters;

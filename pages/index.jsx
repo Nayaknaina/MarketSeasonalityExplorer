@@ -6,6 +6,7 @@ import ThemeSelector from '../components/ThemeSelector';
 import ExportButton from '../components/ExportButton';
 import useWebSocketData from '../lib/binanceWebSocket';
 
+
 export default function Home() {
   const [selectedDate, setSelectedDate] = useState(null);
   const [timeframe, setTimeframe] = useState('daily');

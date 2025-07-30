@@ -7,6 +7,7 @@ const VolatilityHeatmap = ({ data }) => {
     if (volatility < 20) return '#ffeb3b'; // Medium: Yellow
     return '#f44336'; // High: Red
   };
+  
 
   return (
     <Box

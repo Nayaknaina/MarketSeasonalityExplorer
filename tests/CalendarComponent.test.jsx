@@ -7,6 +7,7 @@ describe('CalendarComponent', () => {
     expect(screen.getByText(/MMMM yyyy/)).toBeInTheDocument();
   });
 
+  
   test('navigates to next month on ArrowRight', () => {
     const setSelectedDate = jest.fn();
     render(<CalendarComponent selectedDate={null} setSelectedDate={setSelectedDate} timeframe="daily" cryptoPair="BTC/USD" />);

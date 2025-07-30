@@ -8,6 +8,7 @@ import PerformanceMetrics from './PerformanceMetrics';
 import DataDashboard from './DataDashboard';
 import useWebSocketData from '../lib/binanceWebSocket';
 
+
 const CalendarComponent = ({ selectedDate, setSelectedDate, timeframe, cryptoPair }) => {
   const [currentMonth, setCurrentMonth] = useState(new Date());
   const { orderbookData } = useWebSocketData(cryptoPair);

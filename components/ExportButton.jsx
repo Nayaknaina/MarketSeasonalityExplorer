@@ -11,6 +11,7 @@ const ExportButton = ({ selectedDate, timeframe, data }) => {
       
       performance: d.performance?.change?.toFixed(2) || 'N/A',
     }));
+    
 
     if (format === 'csv') {
       const csv = Papa.unparse(exportData);

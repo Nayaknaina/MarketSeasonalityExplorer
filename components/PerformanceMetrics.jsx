@@ -9,6 +9,7 @@ const PerformanceMetrics = ({ data }) => {
     return null;
   }
 
+  
   const isPositive = change > 0;
   const isNeutral = change === 0;
 

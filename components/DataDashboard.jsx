@@ -2,6 +2,8 @@ import { Modal, Box, Typography, Divider } from '@mui/material';
 import { LineChart, Line, XAxis, YAxis, Tooltip, BarChart, Bar } from 'recharts';
 import { calculateStandardDeviation, calculateRSI } from '../lib/volatilityCalculations';
 
+
+
 const DataDashboard = ({ date, data }) => {
   const selectedData = data.find((d) => d.date === date) || {};
   const chartData = (selectedData.prices || []).map((price, i) => ({ date: `T${i}`, price }));

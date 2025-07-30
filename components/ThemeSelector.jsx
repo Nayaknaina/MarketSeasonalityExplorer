@@ -4,6 +4,7 @@ import { FormControl, InputLabel, Select, MenuItem } from '@mui/material';
 const ThemeSelector = () => {
   const [currentTheme, setCurrentTheme] = useState('default');
 
+  
   useEffect(() => {
     const root = document.documentElement;
     if (currentTheme === 'high-contrast') {
